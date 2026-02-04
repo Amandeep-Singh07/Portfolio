@@ -109,18 +109,18 @@ export default function Resume() {
                   B.Tech in Computer Science & Engineering
                 </p>
                 <p className="text-slate-400">
-                  University Name, Location | Expected: May 2025
+                  Lovely Professional University, Punjab 
                 </p>
                 <p className="text-cyan-400 text-sm mt-2">
-                  CGPA: 8.5/10 | Percentage: 85%
+                  CGPA: 8.1/10 | Percentage: 81%
                 </p>
               </div>
               <div>
                 <p className="font-semibold text-slate-200">
                   Senior Secondary (Class 12)
                 </p>
-                <p className="text-slate-400">School Name, Location | 2021</p>
-                <p className="text-cyan-400 text-sm mt-2">Percentage: 92%</p>
+                <p className="text-slate-400">Aklank Public School, Rajasthan | 2021</p>
+                <p className="text-cyan-400 text-sm mt-2">Percentage: 77%</p>
               </div>
             </div>
           </div>
