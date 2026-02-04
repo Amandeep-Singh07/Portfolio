@@ -122,10 +122,21 @@ export default function Contact() {
                   📧 Email
                 </h3>
                 <a
-                  href="mailto:amandeep@example.com"
+                  href="mailto:amandeep16052000@gmail.com"
                   className="text-slate-400 hover:text-cyan-400 transition-colors break-all"
                 >
-                  amandeep@example.com
+                  amandeep16052000@gmail.com
+                </a>
+              </Card>
+              <Card>
+                <h3 className="text-lg font-bold text-cyan-400 mb-3">
+                  📞 Phone
+                </h3>
+                <a
+                  href="tel:+918949285007"
+                  className="text-slate-400 hover:text-cyan-400 transition-colors"
+                >
+                  +91 89492 85007
                 </a>
               </Card>
 
@@ -133,7 +144,7 @@ export default function Contact() {
                 <h3 className="text-lg font-bold text-cyan-400 mb-3">
                   📍 Location
                 </h3>
-                <p className="text-slate-400">City, State, Country</p>
+                <p className="text-slate-400">Phagwara, Punjab, India</p>
               </Card>
 
               <Card>
@@ -161,20 +172,6 @@ export default function Contact() {
                   className="text-slate-400 hover:text-cyan-400 transition-colors break-all"
                 >
                   github.com/Amandeep-Singh07
-                </a>
-              </Card>
-
-              <Card>
-                <h3 className="text-lg font-bold text-cyan-400 mb-3">
-                  🔗 Portfolio
-                </h3>
-                <a
-                  href="https://amandeepsingh.dev"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-slate-400 hover:text-cyan-400 transition-colors"
-                >
-                  amandeepsingh.dev
                 </a>
               </Card>
             </div>
@@ -237,7 +234,7 @@ export default function Contact() {
                     value={formData.email}
                     onChange={handleChange}
                     className="w-full px-4 py-3 bg-slate-700 border border-slate-600 rounded-lg text-slate-100 placeholder-slate-400 focus:outline-none focus:border-cyan-500 focus:ring-1 focus:ring-cyan-500 transition-all duration-300"
-                    placeholder="amandeep@example.com"
+                    placeholder="amandeep16052000@gmail.com"
                     disabled={status === "loading"}
                   />
                 </div>

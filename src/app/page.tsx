@@ -60,7 +60,7 @@ export default function Home() {
                 </a>
                 <span>•</span>
                 <a
-                  href="mailto:amandeep@example.com"
+                  href="mailto:amandeep16052000@gmail.com"
                   className="hover:text-cyan-400 transition-colors duration-300"
                 >
                   Email
