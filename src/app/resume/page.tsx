@@ -27,8 +27,10 @@ export default function Resume() {
             processes
           </p>
           <div className="flex flex-wrap gap-4 justify-center">
-            <Button href="/resume.pdf">📄 Download PDF</Button>
-            <Button href="/resume.docx" variant="secondary">
+            <Button href="/api/download?file=resume.pdf">
+              📄 Download PDF
+            </Button>
+            <Button href="/api/download?file=resume.docx" variant="secondary">
               📝 Download DOCX
             </Button>
           </div>
