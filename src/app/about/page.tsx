@@ -53,10 +53,10 @@ export default function About() {
                     B.Tech in Computer Science
                   </p>
                   <p className="text-slate-400 text-sm">
-                    University Name (Expected: 2025)
+                   Lovely Professional University 
                   </p>
                   <p className="text-cyan-400 font-semibold text-sm mt-1">
-                    CGPA: 8.5/10
+                    CGPA: 8.1/10
                   </p>
                 </div>
               </div>
