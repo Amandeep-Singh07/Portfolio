@@ -17,7 +17,6 @@ export default function Navbar() {
     { name: "Experience", href: "/internships" },
     { name: "Achievements", href: "/achievements" },
     { name: "Certificates", href: "/certificates" },
-    { name: "Competitive Programming", href: "/competitive-programming" },
     { name: "Resume", href: "/resume" },
     { name: "Contact", href: "/contact" },
   ];
