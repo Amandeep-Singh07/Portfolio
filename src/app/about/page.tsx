@@ -21,24 +21,24 @@ export default function About() {
           <div>
             <h2 className="text-3xl font-bold text-cyan-400 mb-6">Who Am I?</h2>
             <p className="text-slate-400 text-lg mb-4 leading-relaxed">
-              I'm a passionate Computer Science student pursuing a B.Tech degree
-              with a specialization in Software Engineering. With a strong
-              foundation in data structures, algorithms, and software design
-              principles, I'm dedicated to becoming an exceptional software
-              developer.
+              I'm a Computer Science student at Lovely Professional University
+              (2023-Present) with a passion for building scalable systems and
+              AI-driven solutions. With strong expertise in full-stack
+              development, RAG pipelines, and LLM evaluation, I've built
+              production-ready applications that solve real-world problems.
             </p>
             <p className="text-slate-400 text-lg mb-4 leading-relaxed">
-              My journey in tech started with curiosity about how things work.
-              From building simple Python scripts to developing full-stack web
-              applications, I've constantly pushed myself to learn and grow. I
-              believe in writing clean, maintainable code and following industry
-              best practices.
+              My journey combines competitive programming excellence (Codeforces
+              1419 Rated - Specialist) with practical software engineering. From
+              architecting real-time leaderboards to implementing LLM evaluation
+              frameworks, I focus on writing clean, maintainable code that
+              scales. I'm deeply interested in generative AI, data systems, and
+              competitive programming.
             </p>
             <p className="text-slate-400 text-lg leading-relaxed">
-              Beyond coding, I'm fascinated by problem-solving, competitive
-              programming, and contributing to open-source projects. I'm
-              actively seeking placements and internships where I can apply my
-              technical skills and contribute to meaningful projects.
+              I love contributing to open-source projects and exploring new
+              technologies. Currently seeking opportunities to apply my
+              full-stack, AI/ML, and system design skills in impactful projects.
             </p>
           </div>
 
@@ -50,20 +50,26 @@ export default function About() {
               <div className="space-y-4">
                 <div>
                   <p className="font-semibold text-slate-200">
-                    B.Tech in Computer Science
+                    B.Tech in Computer Science & Engineering
                   </p>
                   <p className="text-slate-400 text-sm">
-                   Lovely Professional University 
-                  </p>
-                  <p className="text-cyan-400 font-semibold text-sm mt-1">
-                    CGPA: 8.1/10
+                    Lovely Professional University (Phagwara, Punjab) | 2023-Present
                   </p>
                 </div>
-              </div>
-            </Card>
-
-            <Card>
-              <h3 className="text-xl font-bold text-cyan-400 mb-4">
+                <div>
+                  <p className="font-semibold text-slate-200">
+                    Intermediate (12th Grade)
+                  </p>
+                  <p className="text-slate-400 text-sm">
+                    Aklank Public School (Kota, Rajasthan) | 2020-2021
+                  </p>
+                </div>
+                <div>
+                  <p className="font-semibold text-slate-200">
+                    Matriculation (10th Grade)
+                  </p>
+                  <p className="text-slate-400 text-sm">
+                    D.A.V Public School (Kota, Rajasthan) | 2018-2019
                 Career Goals
               </h3>
               <ul className="space-y-2 text-slate-400">

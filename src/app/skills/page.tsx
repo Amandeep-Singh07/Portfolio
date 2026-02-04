@@ -11,66 +11,51 @@ export default function Skills() {
   const skillCategories = [
     {
       category: "Programming Languages",
-      skills: ["Python", "JavaScript", "TypeScript", "Java", "C++", "SQL"],
+      skills: ["C++", "Python", "JavaScript"],
+    },
+    {
+      category: "Backend / APIs",
+      skills: ["FastAPI", "Node.js", "Express.js", "REST APIs"],
     },
     {
       category: "Frontend Development",
-      skills: [
-        "HTML5",
-        "CSS3",
-        "React",
-        "Next.js",
-        "Tailwind CSS",
-        "D3.js",
-        "Redux",
-      ],
+      skills: ["React.js", "Next.js", "Tailwind CSS", "Streamlit"],
     },
     {
-      category: "Backend Development",
-      skills: [
-        "Node.js",
-        "Express.js",
-        "FastAPI",
-        "Django",
-        "REST APIs",
-        "GraphQL",
-      ],
+      category: "Database",
+      skills: ["PostgreSQL", "MongoDB", "DuckDB"],
     },
     {
-      category: "Databases",
+      category: "ML/LLMs",
       skills: [
-        "MongoDB",
-        "PostgreSQL",
-        "MySQL",
-        "Firebase",
-        "Redis",
-        "Elasticsearch",
+        "LangChain",
+        "RAG Pipelines",
+        "LLM Evaluation",
+        "Cohere Reranker",
       ],
     },
     {
       category: "Tools & Platforms",
-      skills: ["Git", "GitHub", "Docker", "AWS", "Vercel", "Linux", "VS Code"],
+      skills: ["Docker", "AWS", "Pytest", "Git", "Plotly", "Matplotlib"],
     },
     {
       category: "Soft Skills",
       skills: [
+        "Leadership",
+        "Team Collaboration",
         "Problem Solving",
         "Communication",
-        "Team Collaboration",
-        "Project Management",
-        "Adaptability",
-        "Critical Thinking",
       ],
     },
   ];
 
   const proficiencies = [
-    { skill: "JavaScript/TypeScript", level: 95 },
-    { skill: "React & Next.js", level: 90 },
-    { skill: "Python", level: 88 },
-    { skill: "Node.js & Express", level: 85 },
-    { skill: "Database Design", level: 80 },
-    { skill: "CSS & Web Design", level: 85 },
+    { skill: "Python", level: 92 },
+    { skill: "JavaScript", level: 90 },
+    { skill: "FastAPI / Node.js", level: 88 },
+    { skill: "React.js & Next.js", level: 88 },
+    { skill: "LangChain & RAG", level: 85 },
+    { skill: "PostgreSQL / MongoDB", level: 85 },
   ];
 
   return (

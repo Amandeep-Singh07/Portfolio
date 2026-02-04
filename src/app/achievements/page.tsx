@@ -10,14 +10,28 @@ export const metadata = {
 export default function Achievements() {
   const competitiveProgrammingPlatforms = [
     {
+      name: "Codeforces",
+      icon: "⚡",
+      profile: "amandeepsingh",
+      stats: {
+        Rating: "1419",
+        Tier: "Specialist",
+        Contests: "20+",
+        "Best Rank": "Top 10%",
+      },
+      description:
+        "Competitive programmer specializing in algorithmic contests",
+      profileUrl: "https://codeforces.com",
+    },
+    {
       name: "LeetCode",
       icon: "💻",
       profile: "amandeepsingh",
       stats: {
+        Rating: "1610",
         "Problems Solved": "200+",
         Ranking: "Top 15%",
         Badges: "15+",
-        Streak: "45 days",
       },
       description:
         "Active LeetCode user focusing on algorithm and data structure problems",
@@ -26,7 +40,7 @@ export default function Achievements() {
     {
       name: "CodeChef",
       icon: "🍳",
-      profile: "amandeepsingh_chef",
+      profile: "amandeepsingh",
       stats: {
         Rating: "1650",
         Division: "Division 2",
@@ -37,31 +51,17 @@ export default function Achievements() {
       profileUrl: "https://codechef.com",
     },
     {
-      name: "HackerRank",
-      icon: "🎖️",
-      profile: "amandeepsingh_hr",
+      name: "GiveGITA Olympiad",
+      icon: "🏅",
+      profile: "Rank 2",
       stats: {
-        "Problems Solved": "150+",
-        "Star Level": "5-Star",
-        Badges: "12+",
-        Focus: "Problem Solving",
+        Achievement: "Rank 2",
+        Competition: "Inter University",
+        Year: "2025",
+        Type: "Programming",
       },
-      description:
-        "HackerRank expert with 5-star achievement in Problem Solving",
-      profileUrl: "https://www.hackerrank.com/profile/amandeep16052000",
-    },
-    {
-      name: "Kaggle",
-      icon: "📊",
-      profile: "amandeepsingh_kaggle",
-      stats: {
-        Competitions: "8+",
-        Notebooks: "5+",
-        Followers: "150+",
-        "Best Rank": "Top 10%",
-      },
-      description: "Data science and machine learning competition participant",
-      profileUrl: "https://kaggle.com",
+      description: "Ranked 2nd in GiveGITA Inter University Olympiad",
+      profileUrl: "https://givegita.com",
     },
   ];
 

@@ -10,37 +10,21 @@ export const metadata = {
 export default function Internships() {
   const experiences = [
     {
-      company: "Tech Company Name",
-      role: "Software Development Intern",
-      duration: "Jun 2023 - Aug 2023",
+      company: "J.P. Morgan (Virtual Internship Simulation)",
+      role: "SDE – Virtual Internship Simulation",
+      duration: "Aug 2025 - Sep 2025",
       description:
-        "Worked on full-stack development for internal tools and customer-facing features.",
+        "Engineered a Spring Boot microservice to process real-time financial transactions using Apache Kafka.",
       responsibilities: [
-        "Developed responsive web interfaces using React and Tailwind CSS",
-        "Created and maintained REST APIs using Node.js and Express",
-        "Optimized database queries reducing query time by 40%",
-        "Participated in code reviews and contributed to documentation",
-        "Deployed features to production using Docker and AWS",
+        "Built a Spring Boot microservice using JPA and Apache Kafka for processing real-time transactions",
+        "Deployed Kafka consumers to deserialize and process 20+ concurrent JSON transaction streams",
+        "Validated and cleaned 11+ user records using JPA constraints and custom validators",
+        "Optimized RESTful incentive service for processing and enriching high-volume transactional data",
+        "Improved API response efficiency by 40% through query optimization",
       ],
-      skills: ["React", "Node.js", "MongoDB", "Docker", "AWS"],
+      skills: ["Spring Boot", "JPA", "Apache Kafka", "REST APIs", "Java"],
       impact:
-        "Successfully delivered 5 features, improved system performance by 35%",
-    },
-    {
-      company: "Startup Name",
-      role: "Web Development Intern",
-      duration: "Jan 2023 - Apr 2023",
-      description:
-        "Contributed to the development of customer portal and internal dashboard.",
-      responsibilities: [
-        "Built full-stack features for customer portal using Next.js",
-        "Implemented unit tests with 85% code coverage",
-        "Fixed 20+ bugs and performance issues",
-        "Mentored junior developers on best practices",
-        "Contributed to migration from JavaScript to TypeScript",
-      ],
-      skills: ["Next.js", "TypeScript", "PostgreSQL", "Jest", "Tailwind CSS"],
-      impact: "Reduced page load time by 45%, improved code reliability",
+        "Enabled real-time balance updates and transactional data processing at scale",
     },
   ];
 

@@ -10,86 +10,62 @@ export const metadata = {
 export default function Projects() {
   const projects = [
     {
-      title: "E-Commerce Platform",
+      title: "Project-Aarth",
       description:
-        "Full-stack e-commerce application with user authentication, product catalog, shopping cart, and Stripe payment integration.",
-      technologies: ["Next.js", "MongoDB", "Stripe", "JWT", "Tailwind CSS"],
-      role: "Full Stack Developer",
-      challenges:
-        "Implementing secure payment processing and handling complex database queries for product filtering.",
-      outcomes:
-        "Successfully deployed with 1000+ products and smooth user experience. 4.5★ rating on feedback.",
-      github: "https://github.com",
-      demo: "https://demo.example.com",
-    },
-    {
-      title: "AI Chat Application",
-      description:
-        "Real-time chat application with AI-powered responses using OpenAI API. Supports multiple conversations and persistent storage.",
-      technologies: ["React", "Firebase", "OpenAI", "Socket.io", "Express.js"],
-      role: "Full Stack Developer",
-      challenges:
-        "Implementing real-time messaging, managing API rate limits, and optimizing response times.",
-      outcomes:
-        "Sub-second response times. Used by 500+ beta testers. Average satisfaction rate: 92%.",
-      github: "https://github.com",
-      demo: "https://demo.example.com",
-    },
-    {
-      title: "Task Management System",
-      description:
-        "Collaborative task management tool with real-time updates, team collaboration features, and progress tracking.",
-      technologies: ["React", "Node.js", "PostgreSQL", "WebSockets", "Docker"],
-      role: "Full Stack Developer",
-      challenges:
-        "Synchronizing real-time updates across multiple clients without conflicts.",
-      outcomes:
-        "Improved team productivity by 30%. Currently used by 5 teams with 50+ active users.",
-      github: "https://github.com",
-      demo: "https://demo.example.com",
-    },
-    {
-      title: "Data Visualization Dashboard",
-      description:
-        "Interactive dashboard for analyzing and visualizing complex datasets with multiple chart types and filters.",
-      technologies: ["D3.js", "React", "Python", "Flask", "PostgreSQL"],
-      role: "Full Stack Developer",
-      challenges:
-        "Rendering thousands of data points efficiently and implementing interactive visualizations.",
-      outcomes:
-        "Handles 100K+ data points smoothly. Response time: <500ms for complex queries.",
-      github: "https://github.com",
-      demo: "https://demo.example.com",
-    },
-    {
-      title: "Social Media Analytics Tool",
-      description:
-        "Tool to scrape, analyze, and visualize social media metrics with trend analysis and predictive insights.",
-      technologies: ["Python", "React", "FastAPI", "MongoDB", "Celery"],
-      role: "Full Stack Developer & Data Analyst",
-      challenges:
-        "Handling API rate limits and processing large volumes of social media data efficiently.",
-      outcomes:
-        "Processes 10K+ posts daily. Provides actionable insights reducing analysis time by 80%.",
-      github: "https://github.com",
-      demo: "https://demo.example.com",
-    },
-    {
-      title: "Weather Forecasting App",
-      description:
-        "Mobile-responsive weather application with real-time forecasts, multiple locations, and weather alerts.",
+        "A dual-engine AI system that intelligently routes queries to a RAG agent (ChromaDB) or SQL agent (DuckDB) using an intent classifier. Built for efficient structured and unstructured data retrieval.",
       technologies: [
-        "React",
-        "Next.js",
-        "OpenWeather API",
-        "Tailwind CSS",
-        "Geolocation",
+        "Python",
+        "LangChain",
+        "OpenAI GPT-4o",
+        "FastAPI",
+        "DuckDB",
+        "Streamlit",
       ],
-      role: "Frontend Developer",
+      role: "Full Stack Developer",
       challenges:
-        "Implementing accurate geolocation and handling API responses from multiple weather providers.",
-      outcomes: "Clean UI, fast load times (<2s). Supports 200+ countries.",
-      github: "https://github.com",
+        "Implementing efficient intent classification, integrating RAG pipeline with RBAC, and optimizing LLM evaluation metrics.",
+      outcomes:
+        "40% reduction in query latency for structured requests. 18% improvement in answer relevance using Cohere reranker. 3x faster LLM evaluations with automated framework.",
+      github: "https://github.com/Amandeep-Singh07",
+      demo: "https://demo.example.com",
+    },
+    {
+      title: "Rank Rush",
+      description:
+        "A real-time leaderboard system featuring a MinHeap-based ranking engine for efficient, interactive player rankings and score tracking.",
+      technologies: [
+        "React.js",
+        "Tailwind CSS",
+        "Node.js",
+        "Express.js",
+        "PostgreSQL",
+      ],
+      role: "Full Stack Developer",
+      challenges:
+        "Building efficient ranking algorithms, ensuring real-time updates, and optimizing database queries for high concurrent users.",
+      outcomes:
+        "28% improvement in user workflow efficiency. 20% faster end-to-end development cycles. 30% engagement improvement, 15% server load reduction through API optimization.",
+      github: "https://github.com/Amandeep-Singh07",
+      demo: "https://demo.example.com",
+    },
+    {
+      title: "Virtual Memory Optimizer",
+      description:
+        "An interactive dashboard for visualizing page replacement algorithms (LRU, Optimal) and simulating OS-level virtual memory management behavior.",
+      technologies: [
+        "Python",
+        "Streamlit",
+        "NumPy",
+        "Pandas",
+        "Matplotlib",
+        "Plotly",
+      ],
+      role: "Full Stack Developer",
+      challenges:
+        "Processing large page access sequences, implementing accurate page replacement algorithms, and creating intuitive visualizations.",
+      outcomes:
+        "30% improvement in throughput with NumPy/Pandas optimization. Interactive real-time statistics and visualization dashboard built with Streamlit and Plotly.",
+      github: "https://github.com/Amandeep-Singh07",
       demo: "https://demo.example.com",
     },
   ];

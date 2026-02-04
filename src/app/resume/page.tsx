@@ -44,14 +44,14 @@ export default function Resume() {
 
           {/* Objective */}
           <div className="mb-8 border-b border-slate-700 pb-8">
-            <h3 className="text-2xl font-bold text-cyan-400 mb-4">Objective</h3>
+            <h3 className="text-2xl font-bold text-cyan-400 mb-4">Overview</h3>
             <p className="text-slate-400 leading-relaxed">
-              To secure a challenging position as a Software Developer/Intern
-              where I can leverage my full-stack development skills,
-              problem-solving abilities, and passion for technology to
-              contribute to innovative projects and organizational growth.
-              Seeking opportunities to apply academic knowledge in real-world
-              scenarios and become a valuable asset to the team.
+              I'm a Computer Science student at Lovely Professional University
+              with expertise in full-stack development, AI/LLMs, and competitive
+              programming. I have hands-on experience building production-ready
+              applications with Python, JavaScript, and modern frameworks.
+              Currently focused on RAG pipelines, LLM evaluation, and building
+              scalable systems.
             </p>
           </div>
 
@@ -63,22 +63,30 @@ export default function Resume() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div>
                 <p className="font-semibold text-cyan-400 mb-2">Languages</p>
-                <p className="text-slate-400">
-                  Python, JavaScript, TypeScript, Java, C++, SQL
-                </p>
+                <p className="text-slate-400">C++, Python, JavaScript</p>
               </div>
               <div>
                 <p className="font-semibold text-cyan-400 mb-2">
-                  Web Technologies
+                  Backend / APIs
                 </p>
                 <p className="text-slate-400">
-                  HTML5, CSS3, React, Next.js, Node.js, Express.js
+                  FastAPI, Node.js, Express.js, REST APIs
                 </p>
               </div>
               <div>
-                <p className="font-semibold text-cyan-400 mb-2">Databases</p>
+                <p className="font-semibold text-cyan-400 mb-2">Frontend</p>
                 <p className="text-slate-400">
-                  MongoDB, PostgreSQL, MySQL, Firebase
+                  React.js, Next.js, Tailwind CSS, Streamlit
+                </p>
+              </div>
+              <div>
+                <p className="font-semibold text-cyan-400 mb-2">Database</p>
+                <p className="text-slate-400">PostgreSQL, MongoDB, DuckDB</p>
+              </div>
+              <div>
+                <p className="font-semibold text-cyan-400 mb-2">ML/LLMs</p>
+                <p className="text-slate-400">
+                  LangChain, RAG Pipelines, LLM Evaluation, Cohere reranker
                 </p>
               </div>
               <div>
@@ -86,7 +94,7 @@ export default function Resume() {
                   Tools & Platforms
                 </p>
                 <p className="text-slate-400">
-                  Git, GitHub, Docker, AWS, Vercel, Linux
+                  Docker, AWS, Pytest, Git, Plotly, Matplotlib
                 </p>
               </div>
             </div>
@@ -119,63 +127,43 @@ export default function Resume() {
 
           {/* Experience */}
           <div className="mb-8 border-b border-slate-700 pb-8">
-            <h3 className="text-2xl font-bold text-cyan-400 mb-4">
-              Experience
-            </h3>
+            <h3 className="text-2xl font-bold text-cyan-400 mb-4">Training</h3>
             <div className="space-y-6">
               <div>
                 <p className="font-semibold text-slate-200">
-                  Software Development Intern
+                  SDE – Virtual Internship Simulation
                 </p>
                 <p className="text-slate-400">
-                  Company Name | Jun 2023 - Aug 2023
+                  J.P. Morgan | Aug 2025 - Sep 2025
                 </p>
                 <ul className="text-slate-400 mt-3 space-y-2">
                   <li className="flex items-start">
                     <span className="text-cyan-400 mr-2">•</span>
                     <span>
-                      Developed responsive web interfaces using React and
-                      Tailwind CSS
+                      Engineered a Spring Boot microservice using JPA and Apache
+                      Kafka to process real-time transactions
                     </span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-cyan-400 mr-2">•</span>
                     <span>
-                      Created REST APIs using Node.js and Express for backend
-                      services
+                      Deployed Kafka consumers to deserialize and process 20+
+                      concurrent JSON transaction streams
                     </span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-cyan-400 mr-2">•</span>
                     <span>
-                      Reduced database query time by 40% through optimization
-                      techniques
+                      Validated and cleaned 11+ user records using JPA
+                      constraints and custom validators
                     </span>
                   </li>
-                </ul>
-              </div>
-              <div>
-                <p className="font-semibold text-slate-200">
-                  Web Development Intern
-                </p>
-                <p className="text-slate-400">
-                  Startup Name | Jan 2023 - Apr 2023
-                </p>
-                <ul className="text-slate-400 mt-3 space-y-2">
                   <li className="flex items-start">
                     <span className="text-cyan-400 mr-2">•</span>
                     <span>
-                      Built full-stack features for customer portal using
-                      Next.js
+                      Improved API response efficiency by 40% through query
+                      optimization
                     </span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-cyan-400 mr-2">•</span>
-                    <span>Implemented unit tests covering 85% of codebase</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-cyan-400 mr-2">•</span>
-                    <span>Contributed to documentation and code reviews</span>
                   </li>
                 </ul>
               </div>
@@ -185,43 +173,48 @@ export default function Resume() {
           {/* Achievements */}
           <div>
             <h3 className="text-2xl font-bold text-cyan-400 mb-4">
-              Achievements & Certifications
+              Certifications & Achievements
             </h3>
-            <ul className="text-slate-400 space-y-2">
-              <li className="flex items-start">
-                <span className="text-cyan-400 mr-2">✓</span>
-                <span>
-                  Google Cloud Associate Cloud Engineer Certification (In
-                  Progress)
-                </span>
-              </li>
-              <li className="flex items-start">
-                <span className="text-cyan-400 mr-2">✓</span>
-                <span>
-                  Completed Full Stack Development Bootcamp with distinction
-                </span>
-              </li>
-              <li className="flex items-start">
-                <span className="text-cyan-400 mr-2">✓</span>
-                <span>
-                  Top 50 in CodeChef ranked programming competition with 1000+
-                  participants
-                </span>
-              </li>
-              <li className="flex items-start">
-                <span className="text-cyan-400 mr-2">✓</span>
-                <span>
-                  Winner of Campus Hackathon 2023 - Best Innovation Award
-                </span>
-              </li>
-              <li className="flex items-start">
-                <span className="text-cyan-400 mr-2">✓</span>
-                <span>
-                  Published 2 technical blog posts on Medium with 5000+ views
-                  combined
-                </span>
-              </li>
-            </ul>
+            <div className="mb-6">
+              <h4 className="font-semibold text-cyan-300 mb-3">Certificates</h4>
+              <ul className="text-slate-400 space-y-2">
+                <li className="flex items-start">
+                  <span className="text-cyan-400 mr-2">✓</span>
+                  <span>
+                    Generative AI and LLMs - Architecture and Data Preparation
+                    (IBM, Coursera) | Sep 2025
+                  </span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-cyan-400 mr-2">✓</span>
+                  <span>Advance React (META, Coursera) | Aug 2025</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-cyan-400 mr-2">✓</span>
+                  <span>
+                    Design and Analysis of Algorithms (IIT Madras, NPTEL) | May
+                    2025
+                  </span>
+                </li>
+              </ul>
+            </div>
+            <div>
+              <h4 className="font-semibold text-cyan-300 mb-3">Achievements</h4>
+              <ul className="text-slate-400 space-y-2">
+                <li className="flex items-start">
+                  <span className="text-cyan-400 mr-2">✓</span>
+                  <span>Codeforces: 1419 Rated (Specialist)</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-cyan-400 mr-2">✓</span>
+                  <span>LeetCode: 1610 Rating</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-cyan-400 mr-2">✓</span>
+                  <span>Rank 2 in GiveGITA Inter University Olympiad</span>
+                </li>
+              </ul>
+            </div>
           </div>
         </Card>
 
