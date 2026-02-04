@@ -53,7 +53,8 @@ export default function About() {
                     B.Tech in Computer Science & Engineering
                   </p>
                   <p className="text-slate-400 text-sm">
-                    Lovely Professional University (Phagwara, Punjab) | 2023-Present
+                    Lovely Professional University (Phagwara, Punjab) |
+                    2023-Present
                   </p>
                 </div>
                 <div>
@@ -70,6 +71,11 @@ export default function About() {
                   </p>
                   <p className="text-slate-400 text-sm">
                     D.A.V Public School (Kota, Rajasthan) | 2018-2019
+                  </p>
+                </div>
+              </div>
+
+              <h3 className="text-xl font-bold text-cyan-400 mb-4">
                 Career Goals
               </h3>
               <ul className="space-y-2 text-slate-400">
