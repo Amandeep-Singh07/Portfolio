@@ -38,7 +38,7 @@ export default function Navbar() {
           </Link>
 
           {/* Desktop Navigation */}
-          <div className="hidden md:flex gap-1 items-center">
+          <div className="hidden md:flex gap-1">
             {navItems.map((item) => (
               <Link
                 key={item.href}
@@ -52,13 +52,6 @@ export default function Navbar() {
                 {item.name}
               </Link>
             ))}
-            <a
-              href="/resume.pdf"
-              download
-              className="ml-2 px-4 py-2 rounded-md text-sm font-medium bg-cyan-500 text-slate-950 hover:bg-cyan-400 transition-all duration-300"
-            >
-              Download Resume
-            </a>
           </div>
 
           {/* Mobile menu button */}
@@ -101,13 +94,6 @@ export default function Navbar() {
                 {item.name}
               </Link>
             ))}
-            <a
-              href="/resume.pdf"
-              download
-              className="block px-3 py-2 rounded-md text-base font-medium bg-cyan-500 text-slate-950 hover:bg-cyan-400 transition-all duration-300 text-center"
-            >
-              Download Resume
-            </a>
           </div>
         </div>
       )}
